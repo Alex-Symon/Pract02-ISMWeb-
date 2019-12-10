@@ -1,0 +1,174 @@
+body {
+  /*border: 3px solid grey;*/
+  font-family: "Arial";
+  font-weight: bolder;
+  /*box-sizing: border-box;*/
+  /*clear: both;*/
+}
+
+div.header1 {
+  display: inline-block;
+}
+
+header {
+  background-color: #cccccc;
+
+}
+
+header li {
+  list-style-type: none; /*Забираємо маркери*/
+  display: inline; /*В одну лінію*/
+  margin-right: 9px;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none; /*Забираємо підкреслення*/
+}
+
+.header2 {
+  float: right; /*Вирівнювання справа*/
+  /*display: inline-block; /*В один рядок*/
+
+}
+
+main div p {
+  color: #999999;
+  font-size: 13px; /*Розмір шрифту*/
+}
+
+.login {
+  border: 3px solid #55a9cb;
+  background-color: #55a9cb;
+  color: white; /*Цвет текста*/
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  /*border: 3px solid white;*/
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+div.a2 {
+  border: 1px solid #55a9cb;
+  background-color: gainsboro;
+  width: 200px;
+  height: 200px;
+  vertical-align: 30px;
+  margin-left: 15px;
+  float: right;
+  margin-top: 20px;
+}
+
+.a1 {
+  border: gray;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  /*display: inline-block;*/
+  float: right;
+  margin-top: 20px;
+  /*align-items: center;Вирівнювання по аертикалі*/
+}
+
+.hh {
+  height: 33px;
+  color: white;
+  background-color: #55a9cb;
+  border: none;
+}
+
+.g1 {
+  max-width: 36%;
+  display: inline-block;
+}
+
+.main1 {
+  border-bottom: 2px solid gray; /*Нижнє підкреслення*/
+  min-height: 280px;/* auto*/
+}
+
+.hh1 {
+  height: 20px;
+  width: 100px;
+}
+
+.text {
+  margin-bottom: 3px;
+  color: black;
+}
+
+main div.table {
+  border: 1px solid gray;
+  width: 280px;
+  /*clear: both;*/
+  float: left;
+  /*margin-right: 150px;*/
+}
+
+.a-1 {
+  background-color: #cccccc;
+  color: gray;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;/*Вирівнювання по горизонталі*/
+  align-items: center;/*Вирівнювання по аертикалі*/
+  font-size: 30px;
+  font-family: "Arial";
+}
+.mainflex{
+  display: flex;
+  /*max-width: 90%;*/
+  margin: auto;
+}
+.t1{
+  margin: auto;
+}
+.button{
+  width: 100%;
+  background-color: white;
+  color: #55a9cb;
+  border: 1px solid #55a9cb;
+  height: 30px;
+  margin-top: 10px;
+}
+.section1{
+  margin-top: 10px;
+  border: 1px solid #cccccc;
+  height: 150px;
+  background-color: #DEE5E4;
+}
+.section1 div ul li {
+  list-style-type: none; /*Забираємо маркери*/
+  margin-top: 15px;
+  font-size: 12px;
+}
+.section1 div b {
+  margin-left: 20px;
+}
+.section1 div{
+  float: left;
+  margin-right: 260px;
+}
+.a1-1{
+  background-color: #cccccc;
+  color: gray;
+  margin: auto;
+  vertical-align: middle;
+  height: 200px;
+}
+.section2 div ul li {
+  list-style-type: none; /*Забираємо маркери*/
+  display: inline-block;
+  font-size: 13px;
+}
+.section3{
+  float: right; /*Вирівнювання справа*/
+  margin-right: 300px;
+}
